@@ -1,41 +1,39 @@
-# Expense Tracker
+# Expense Tracker App
 
-Expense Tracker is a simple Android application developed using Android Studio that helps users track their income and expenses.
+Welcome to Expense Tracker App! This is a simple application designed to help you manage your finances by tracking your income, expenses, and displaying your balance in a clear and concise manner. Additionally, it provides graphical representations of your financial data through pie charts and a dashboard.
 
 ## Features
 
-- **Add Income:** Users can easily add their income to the app by providing a description and amount.
-- **Add Expense:** Users can add their expenses by specifying a category, description, and amount.
-- **Display:** The app provides a clear display of the user's income and expenses, allowing them to track their financial transactions over time.
+- **Add Income**: Easily add your income to keep track of your earnings.
+- **Add Expense**: Record your expenses to monitor where your money is going.
+- **Show Balance**: Instantly see your current balance to stay on top of your finances.
+- **Graphical Representation**: Visualize your financial data through pie charts for better insights.
+- **Dashboard**: Access a centralized dashboard to view all your financial information at a glance.
+
+## Usage
+
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies by running `npm install` or `yarn install`.
+4. Start the application with `npm start` or `yarn start`.
+5. Access the app through your web browser at `http://localhost:3000` (by default).
 
 ## Technologies Used
 
-- **Android Studio:** The application is developed using Android Studio, the official integrated development environment for Android app development.
-- **Java:** The backend logic of the application is implemented using Java programming language.
-- **SQLite Database:** SQLite is used as the local database to store the income and expense data.
-
-## Installation
-
-1. Clone the repository:
-
-
-2. Open the project in Android Studio.
-
-3. Build and run the project on an Android device or emulator.
-
-
+- **Frontend**: React.js for building the user interface.
+- **Data Visualization**: Chart.js for creating graphical representations.
+- **Styling**: CSS or styled-components for styling the components.
+- **State Management**: (Optional) Redux or Context API for managing application state.
 
 ## Contributing
 
-Contributions are welcome! If you would like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/add-new-feature`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature/add-new-feature`).
-6. Create a new Pull Request.
+Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request. Please make sure to follow the [contributing guidelines](CONTRIBUTING.md).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+- Special thanks to [Chart.js](https://www.chartjs.org/) for providing powerful and easy-to-use charting library.
+- Thanks to all the contributors who helped improve this project.
